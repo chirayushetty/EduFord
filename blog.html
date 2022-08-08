@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>University Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="first web.html">
+                    <img src="eduford_img/logo.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="first web.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Certificates and Online Courses in 2021</h1>
+        </section>
+
+        <!--------BLOG------->
+        <section class="blog">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="eduford_img/certificate.jpg">
+                    <h2>Our Certificates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates placeat, aliquid omnis aut nobis ratione quod odio neque, quas non provident, culpa exercitationem cumque laboriosam doloremque velit dolorum eaque!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facere cupiditate laborum omnis dicta officiis velit totam saepe et expedita, mollitia molestiae similique quibusdam amet dolorum, ad eos non nam!
+                    <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id inventore expedita ratione nostrum nihil quos velit, sapiente at ducimus perferendis, aperiam suscipit vel hic magnam repellendus eum voluptatum, sed beatae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda ab voluptas quas quasi omnis, sed illo dignissimos quae harum debitis consequatur accusamus alias, nostrum voluptatem corporis aliquid consectetur enim.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus perspiciatis, autem nemo, ab at totam sapiente illum dignissimos doloremque voluptatem necessitatibus adipisci animi excepturi eaque nobis modi sed eius.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, inventore magnam natus repellendus quod assumenda tenetur, quaerat autem dolores quasi eveniet quas maxime officia quibusdam aut magni, aliquam eum impedit!
+                    </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic, iusto voluptatum sapiente maxime et ducimus culpa inventore provident, libero quibusdam repellat ratione soluta deserunt minima facilis unde tempore excepturi?</p>
+
+                    <div class="comment-box">
+                        <br>
+                        <h3>Leave a Comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter E-mail">
+                            <textarea rows="5" placeholder="Your Comment">
+                            </textarea>
+                            <button type="submit" class="hero-btn red-btn">SUBMIT</button> 
+                        </form>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Information Technology</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Finance</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Blockchain</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Artificial Intelligence</span>
+                        <span>21</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+       
+
+        <!----footer/about us----->
+       
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure eveniet nostrum hic nihil sit corrupti, sint mollitia exercitationem earum nulla.<br> Aliquam aut quas soluta maxime consequatur quam aperiam facere obcaecati.</p>
+            <div class="icons">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-twitter-official"></i>
+                <i class="fa fa-instagram-official"></i>
+                <i class="fa fa-linkedin-official"></i>
+            </div>
+        </section>
+
+
+<!--------Javscript for Toggle menu------->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>
